@@ -1,0 +1,370 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Clone</title>
+   <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+.header {
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
+.search-box {
+    display: flex;
+    width: 50%;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+
+.search-box button {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.user-icon {
+    font-size: 22px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background: white;
+    height: calc(100vh - 60px);
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background: #f1f1f1;
+}
+
+.videos {
+    flex: 1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.video-card {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.video-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.video-card p {
+    font-size: 14px;
+    color: gray;
+}
+
+.video-card span {
+    font-size: 12px;
+    color: gray;
+}
+
+   </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="logo"> ▶️ Youtube </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search">
+        <button>🔍</button>
+    </div>
+
+    <div class="user-icon">👤You</div>
+</header>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <a href="#">🏠 Home</a>
+        <a href="#">🔥 Shorts</a>
+        <a href="#">📺 Subscriptions</a>
+        <a href="#">📚 Library</a>
+        <a href="#">🕒 History</a>
+    
+    </aside>
+
+    <main class="videos">
+
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x180" alt="">
+            <video src="https://youtu.be/dB6sowSVcZw"></video>
+            <h3>Video Title One</h3>
+            <p>Channel Name</p>
+            <span>1M views • 1 day ago</span>
+        </div>
+
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x180" alt="">
+            <h3>Video Title Two</h3>
+            <p>Channel Name</p>
+            <span>500K views • 2 days ago</span>
+        </div>
+
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x180" alt="">
+            <h3>Video Title Three</h3>
+            <p>Channel Name</p>
+            <span>800K views • 1 week ago</span>
+        </div>
+
+        <div class="video-card">
+            <img src="" alt="">
+            <h3>Video Title Four</h3>
+            <p>Channel Name</p>
+            <span>2M views • 3 weeks ago</span>
+        </div>
+        <div class="video-card">
+            <img src=" " alt="">
+            <h3>Video Title Four</h3>
+            <p>Channel Name</p>
+            <span>2M views • 3 weeks ago</span>
+        </div>
+        <div class="video-card">
+            <img src=" " alt="">
+            <h3>Video Title Four</h3>
+            <p>Channel Name</p>
+            <span>2M views • 3 weeks ago</span>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;    
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://i.pinimg.com/1200x/85/a8/38/85a83838d901527e2df52fa17662c2f0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#right {
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+#right h1{
+    font-size: 10vh;
+}
+#right h2{
+    font-size: 5vh;
+}
+#hror{
+    display: flex;
+    gap: 5px;
+    border: none;
+
+}
+#hror hr{
+    width: 2200px;
+}
+hr{
+    height: 3px;
+    background-color: whitesmoke;
+}
+#or{
+    line-height: 2px;
+    font-size: 2vh;
+}
+.options {
+    color: rgb(66, 64, 64);
+    background-color: whitesmoke;
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;            
+    max-width: 300px;      
+    margin: 20px auto;     
+    padding: 15px;
+    cursor: pointer;
+}
+.options img{
+    width: 30px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-right: 2vh;
+}
+.lower{
+    background-color: rgba(172, 160, 160, 0);
+    color: rgb(146, 141, 141);
+    width: 90%;
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: whitesmoke;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    cursor: pointer;
+}
+.terms-container {
+    background-color: transparent; 
+    padding: 10px;
+    text-align: center; 
+}
+
+.terms-container p {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px; 
+    white-space: nowrap; }
+
+.terms-container a {
+    color: #1d9bf0; 
+    text-decoration: none; 
+}
+
+.terms-container a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 400px) {
+    .terms-container p {
+        white-space: normal;
+        font-size: 12px;
+    }
+}
+footer {
+    margin-top: auto;      
+    text-align: center;
+    color: whitesmoke;
+    font-family: monospace;
+    padding: 20px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .options {
+        width: 80%;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        background-position: top; 
+    }
+    #right h1 {
+        font-size: 1.5rem; 
+    }
+}
+</style>
+<body>
+    <div id="work">
+        <div id="right">
+            <h1>Happening Now</h1>
+            <h2>Join Today !</h2>
+            <div class="options">
+                <h3><img src="https://i.pinimg.com/1200x/cb/a1/70/cba170bf906ecdf0fb3bc1341b6373d5.jpg" alt="">Sign up with Google</h3>
+            </div>
+            <div class="options">
+                <h3><img src="https://i.pinimg.com/736x/b6/31/93/b6319334f8952343438b3f14ee1287f3.jpg" alt="">Sign up with Apple</h3>
+            </div>
+            <div id="hror">
+                <hr><h5 id="or">OR</h5><hr>
+            </div>
+            <div class="terms-container">
+    <p>
+        By signing up, you agree to the <a href="#">Terms of Service</a> 
+        and <a href="#">Privacy Policy</a>, including <a href="#">Cookie Use.</a>
+    </p>
+</div>
+            <br>
+            <br>
+            <div class="option">
+                <h3>Already have an account ?</h3>
+                <br>
+                <div class="lower"><h4>Sign in</h4></div>
+            </div>
+            <div class="option">
+                <div class="lower"><h4>Get the app</h4></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            <h6>
+                About | Download the X app | Grok | Help Center | Terms of Services | Privavy Policy | Cookie Policy | Accessibility | Ads info | Blog | Carrers | Brand Resources | Adverstising | Marketing | X for Business | Developers
+            </h6>
+        </p>
+        <p>
+            <h6>
+                News | Settings |  2025 X Crop.
+            </h6>
+        </p>
+    </footer>
+</body>
+</html>
